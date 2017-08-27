@@ -1,0 +1,30 @@
+{
+  "name": "hellonode",
+  "version": "1.0.0",
+  "description": "Hello Node - New Relic Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "helloTest"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicparker/HelloNode.git"
+  },
+  "keywords": [
+    "APM",
+    "Test"
+  ],
+  "author": "Vic Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicparker/HelloNode/issues"
+  },
+  "homepage": "https://github.com/vicparker/HelloNode#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "newrelic": "^2.2.0"
+  }
+}
